@@ -1,0 +1,94 @@
+:root {
+  --border: 1px solid #eee2dc;
+  --padding: 15px;
+  --radius: 10px;
+  --background: #eee2dc;
+}
+.body {
+  background-color: #edc7b7;
+  font-family: "Comfortaa", cursive;
+}
+.navbar-pink {
+  background-color: var(--background);
+  border: var(--border);
+}
+.logo {
+  max-width: 50px;
+}
+body {
+  margin: 100px;
+}
+h1 {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+h2 {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+p {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  font-family: "Comfortaa", cursive;
+}
+
+.button-about {
+  border: var(--border);
+  padding: var(--padding);
+  border-radius: var(--radius);
+  background-color: var(--background);
+}
+
+.button-contact {
+  border: var(--border);
+  padding: var(--padding);
+  border-radius: var(--radius);
+  background-color: var(--background);
+}
+a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-family: "Comfortaa", cursive;
+}
+
+a:visited {
+  color: white;
+}
+a:hover {
+  color: rgb(238, 49, 191);
+}
+.weather-background {
+  background-color: #123c69;
+
+  padding: 30px;
+  position: absolute;
+  margin-top: 50px;
+  left: 0;
+  right: 0;
+}
+.weather-app {
+  border: var(--border);
+  padding: var(--padding);
+  border-radius: var(--radius);
+  background-color: var(--background);
+}
+.stories {
+  border: var(--border);
+  padding: var(--padding);
+  border-radius: var(--radius);
+  background-color: var(--background);
+}
+.text-paragraph {
+  border: 1px solid white;
+  margin-top: 50px;
+  padding: 30px;
+  border: var(--border);
+  padding: var(--padding);
+  border-radius: var(--radius);
+}
